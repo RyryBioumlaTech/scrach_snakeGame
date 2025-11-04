@@ -71,3 +71,18 @@
             height: fit-content;
             margin: 15px auto 0px auto;
         }
+#resMsg {
+    display: none;
+    text-align: center;
+    margin-top: 20%;
+    font-size: 24px;
+}
+
+@media screen and (max-width: 768px) {
+    #resMsg {
+        display: block;
+    }
+    #block, #interface {
+        display: none;
+    }
+}
